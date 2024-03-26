@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -15,7 +15,7 @@ function Navbar() {
 								</svg></div>
 
                                 <div className='links flex justify-end gap-10 '>
-                                    {['Services','Our Work','About Us','Insights','Contacts'].map((item,index)=>( <Link key={index} to='/services' className='text-lg font-semibold hover:text-sky-700'>{item}</Link>))}
+                                    {['Services','Our Work','About Us','Insights','Contacts'].map((item,index)=>( <a key={index} to='/services' className='text-lg font-semibold hover:text-sky-700'>{item}</a>))}
                                 </div>
     </div>
   )
