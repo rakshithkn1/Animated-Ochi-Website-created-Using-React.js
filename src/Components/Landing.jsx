@@ -3,11 +3,14 @@
 import { FaArrowUpLong } from "react-icons/fa6";
 
 import {motion} from 'framer-motion'
+import Navbar from "./Navbar";
 function Landing() {
 motion
 
   return (
+    
     <div data-scroll data-scroll-section data-scroll-speed='-.3' className='w-full h-screen bg-zinc-900 pt-1'>
+        <Navbar/>
         <div className='textstructure mt-52 px-20 '>
             
             <div className='font-bold maskers overflow-hidden '>
